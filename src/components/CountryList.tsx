@@ -33,7 +33,7 @@ class CountryList extends React.Component<CountryListProps,CountryListState>
             //     console.log(level);
             // }
             getCountryList = async function (setState: Function) {
-                const response = await get<any>("http://localhost:8080/i4e/i4e/v1/country");   
+                const response = await get<any>("http://localhost:8887/countrylist.json");   
                 console.log(response);
                 setState({
                     countryList: response.parsedBody.countries,
