@@ -1,0 +1,30 @@
+{
+  "status": {
+    "message": {
+      "title": null,
+      "detail": null,
+      "code": "0",
+      "messageType": null,
+      "relatedMessage": null
+    },
+    "resultType": "SUCCESSFUL"
+  },
+  "educationLevels": [
+    {
+      "educationLevelID": 1,
+      "educationLevel": "Graduation"
+    },
+    {
+      "educationLevelID": 4,
+      "educationLevel": "Masters"
+    },
+    {
+      "educationLevelID": 3,
+      "educationLevel": "Doctoral"
+    },
+    {
+      "educationLevelID": 2,
+      "educationLevel": "PG"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "status": {
+    "message": {
+      "title": null,
+      "detail": null,
+      "code": "0",
+      "messageType": null,
+      "relatedMessage": null
+    },
+    "resultType": "SUCCESSFUL"
+  },
+  "countries": [
+    {
+      "code": "IND",
+      "description": "INDIA",
+      "isdCode": 91,
+      "mobNoLength": 10,
+      "currency": "Rs.",
+      "isHome": "Y",
+      "countryDetails": {
+        "code": "IND",
+        "visaUrl": "https://indianvisaonline.gov.in",
+        "highCommURL": "https://eoi.gov.in"
+      },
+      "countryWhethers": [
+        {
+          "countryWhetherID": 1,
+          "countryCode": "IND",
+          "minTemp": 24,
+          "maxTemp": 39,
+          "monthValue": 7,
+          "yearValue": 2021
+        },
+        {
+          "countryWhetherID": 2,
+          "countryCode": "IND",
+          "minTemp": 25,
+          "maxTemp": 40,
+          "monthValue": 8,
+          "yearValue": 2021
+        }
+      ],
+      "countryPropsAttr": [
+        {
+          "countryPropsID": 1,
+          "inCountryCode": "IND",
+          "outCountryCode": "US",
+          "noOfStudent": 1,
+          "year": 2021
+        },
+        {
+          "countryPropsID": 2,
+          "inCountryCode": "US",
+          "outCountryCode": "IND",
+          "noOfStudent": 1,
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "code": "UK",
+      "description": "UNITED KINGDOM",
+      "isdCode": 44,
+      "mobNoLength": 11,
+      "currency": "£",
+      "isHome": "N",
+      "countryDetails": {
+        "code": "UK",
+        "visaUrl": "https://indianvisaonline.gov.in",
+        "highCommURL": "https://eoi.gov.in"
+      },
+      "countryWhethers": [],
+      "countryPropsAttr": []
+    },
+    {
+      "code": "US",
+      "description": "UNITED STATE",
+      "isdCode": 1,
+      "mobNoLength": 11,
+      "currency": "$",
+      "isHome": "N",
+      "countryDetails": {
+        "code": "US",
+        "visaUrl": "https://indianvisaonline.gov.in",
+        "highCommURL": "https://eoi.gov.in"
+      },
+      "countryWhethers": [
+        {
+          "countryWhetherID": 3,
+          "countryCode": "US",
+          "minTemp": 15,
+          "maxTemp": 30,
+          "monthValue": 7,
+          "yearValue": 2021
+        },
+        {
+          "countryWhetherID": 4,
+          "countryCode": "US",
+          "minTemp": 11,
+          "maxTemp": 20,
+          "monthValue": 8,
+          "yearValue": 2021
+        }
+      ],
+      "countryPropsAttr": [
+        {
+          "countryPropsID": 4,
+          "inCountryCode": "US",
+          "outCountryCode": "UK",
+          "noOfStudent": 1,
+          "year": 2021
+        },
+        {
+          "countryPropsID": 3,
+          "inCountryCode": "UK",
+          "outCountryCode": "US",
+          "noOfStudent": 1,
+          "year": 2021
+        }
+      ]
+    }
+  ]
+}
